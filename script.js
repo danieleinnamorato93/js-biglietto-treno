@@ -8,4 +8,7 @@ va applicato uno sconto del 40% per gli over 65.*/
 //Check collegamento JS
 console.log ('JS OK')
 
-//Preparazione:
+//Raccolta dati: chiedo il numero di km da percorrere e l'tà del passeggero
+const age = parseInt(prompt ('Quanti anni hai?'));
+console.log ('age')
+const Kms
