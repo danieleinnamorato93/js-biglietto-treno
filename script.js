@@ -8,7 +8,29 @@ va applicato uno sconto del 40% per gli over 65.*/
 //Check collegamento JS
 console.log ('JS OK')
 
+//Preparazione
+let totalPrice 
+
 //Raccolta dati: chiedo il numero di km da percorrere e l'tà del passeggero
 const age = parseInt(prompt ('Quanti anni hai?'));
-console.log ('age')
-const Kms
+console.log ('age') ;
+const kmsTr =  parseInt(prompt ('Quantikilometri vuoi percorrere?'));
+console.log ('kmsTr') ;
+
+//Elaboazione Dati: costo biglietto al km / sconto in base all'età / fix decimali in eccesso
+
+let ticketPrice = 0.21 * kmsTr;
+console.log ('ticketPrice');
+
+if (age < 18) {
+   ( ticketPrice * 0.20) / 100;
+} else if (age > 65) {
+    ( ticketPrice * 0.40) / 100;
+};
+console.log ('ticketPricescontati')
+
+totalPrice = ticketPrice.toFixed(2);
+console.log ('totalprice')
+
+//Output
+
