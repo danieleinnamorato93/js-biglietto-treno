@@ -1,0 +1,12 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div {
+    background-color: lightskyblue;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
